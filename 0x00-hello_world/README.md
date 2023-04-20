@@ -9,3 +9,5 @@ File '3-name' has a script that compiles a C file saved in the variable $CFILE a
 File '4-puts.c' has a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
 
 File '5-printf.c' has a C program that prints text using the function printf followed by a new line.
+
+File '6-size.c' has a C program that prints the size of various types on the computer it is compiled and run on.
