@@ -13,3 +13,5 @@ File '5-printf.c' has a C program that prints text using the function printf fol
 File '6-size.c' has a C program that prints the size of various types on the computer it is compiled and run on.
 
 File '100-intel' has a script that generates the assembly code (Intel syntax) of C code saved in the variable $CFILE and saves it in an output file.
+
+File '101-quote.c' has a C program that prints to the standard error without using printf or puts functions and return 1.
