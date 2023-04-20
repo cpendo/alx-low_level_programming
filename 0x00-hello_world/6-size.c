@@ -6,7 +6,7 @@
  * This C program will print size the various data types in the computer
  * using the sizeof function.
  *
- * @return 0 - if the program is successful,non-zero otherwise.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
