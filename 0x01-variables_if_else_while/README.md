@@ -5,3 +5,5 @@ File '1-last_digit.c' has a C program that prints out a string depending on the 
 File '2-print_alphabet.c' has a C program that prints the alphabet in lowercase, followed by a new line.
 
 File '3-print_alphabets.c' has a C program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+File '4-print_alphabt.c' has a C program that prints the alphabet except q and e in lowercase, followed by a new line.
