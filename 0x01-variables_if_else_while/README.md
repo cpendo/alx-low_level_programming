@@ -14,4 +14,6 @@ File '6-print_numberz.c' has a C program that prints all single digit numbers of
 
 File '7-print_tebahpla.c' has a C program that prints the lowercase alphabet in reverse using the putchar function, followed by a new line.
 
-File '8-print_base16.c' has a C program that prints all the numbers of base 16 in lowercase, followed by a new line. 
+File '8-print_base16.c' has a C program that prints all the numbers of base 16 in lowercase, followed by a new line.
+
+File '9-print_comb.c' has a C program that prints all possible combinations of single-digit numbers separated by ,, followed by a space. 
