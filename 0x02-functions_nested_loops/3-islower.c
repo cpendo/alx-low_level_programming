@@ -3,6 +3,8 @@
 /**
  * _islower - checks for lowercase characters
  *
+ * @c: character to checj=k for lowercase
+ *
  * Return: 1 if character is successful
  */
 
