@@ -9,3 +9,5 @@ File '3-islower.c' has a C function that checks for lowercase character and retu
 File '4-isalpha.c' has a C function that checks for alphabetic character and returns 1 if c is lowercase or uppercase, otherwise 0.
 
 File '5-sign.c' has a C function that prints the sign of a number and returns 1, 0 or -1 depending on the numbers sign.
+
+File '6-abs.c' has a C function that computes the absolute value of an integer.
