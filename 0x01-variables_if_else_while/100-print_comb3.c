@@ -18,8 +18,8 @@ int main(void)
 
 			if (i != 89)
 			{
-				putchar(' ');
 				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
