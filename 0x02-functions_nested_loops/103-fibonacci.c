@@ -17,9 +17,9 @@ int main(void)
 			sum += fib1;
 		}
 
-		temp = fib1;
-		fib1 += fib2;
-		fib2 = temp;
+		temp = fib2;
+		fib2 += fib1;
+		fib1 = temp;
 	}
 
 	printf("%d\n", sum);
