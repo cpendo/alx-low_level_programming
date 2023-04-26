@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i;
-	unsigned long int fib1 = 1, fib2 = 2, next;
+	unsigned long fib1 = 1, fib2 = 2, next;
 
 	printf("%ld, %ld, ", fib1, fib2);
 
