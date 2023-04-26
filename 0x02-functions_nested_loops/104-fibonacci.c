@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	int n = 50, i;
+	int i;
 	long int fib1 = 1, fib2 = 2, next;
 
 	printf("%ld, %ld, ", fib1, fib2);
 
-	for (i = 3; i <= n; i++)
+	for (i = 0; i <= 96; i++)
 	{
 		next = fib1 + fib2;
 
