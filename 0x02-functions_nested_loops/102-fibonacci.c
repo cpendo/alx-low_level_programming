@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int n = 10, i;
+	int n = 50, i;
 	int fib1 = 1, fib2 = 2, next;
 
 	printf("%d, %d, ", fib1, fib2);
