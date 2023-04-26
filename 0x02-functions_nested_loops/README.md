@@ -21,3 +21,5 @@ File '9-times_table.c' has a C function that prints the 9 times table, starting 
 File '10-add.c' has a C function that adds two integers and returns the result.
 
 File '11-print_to_98.c' has a C function that prints all natural numbers from n to 98, followed by a new line.
+
+File '100-times_table.c' has a C function that prints the n times table, starting with 0.
