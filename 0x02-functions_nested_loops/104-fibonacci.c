@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	unsigned long fib1 = 1, fib2 = 2, next;
 
-	printf("%ld, %ld, ", fib1, fib2);
+	printf("%lu, %lu ", fib1, fib2);
 
 	for (i = 0; i <= 96; i++)
 	{
@@ -19,12 +19,12 @@ int main(void)
 
 		if (i != 96)
 		{
-			printf("%ld, ", next);
+			printf("%lu, ", next);
 			fib1 = fib2;
 			fib2 = next;
 		}
 		else
-			printf("%ld\n", next);
+			printf("%lu\n", next);
 	}
 
 	return (0);
