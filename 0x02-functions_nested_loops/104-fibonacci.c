@@ -17,7 +17,7 @@ int main(void)
 	{
 		next = fib1 + fib2;
 
-		if (i != 50)
+		if (i != 96)
 		{
 			printf("%ld, ", next);
 			fib1 = fib2;
