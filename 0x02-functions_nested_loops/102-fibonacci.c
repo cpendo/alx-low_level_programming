@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n = 50, i;
-	long long int fib1 = 1, fib2 = 2, next;
+	long int fib1 = 1, fib2 = 2, next;
 
 	printf("%ld, %ld, ", fib1, fib2);
 
