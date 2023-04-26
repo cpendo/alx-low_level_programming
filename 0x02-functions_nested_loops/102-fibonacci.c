@@ -17,9 +17,14 @@ int main(void)
 	{
 		next = fib1 + fib2;
 
-		printf("%ld, ", next);
-		fib1 = fib2;
-		fib2 = next;
+		if (n != 50)
+		{
+			printf("%ld, ", next);
+			fib1 = fib2;
+			fib2 = next;
+		}
+		else
+			printf("%ld", next);
 	}
 
 	return (0);
