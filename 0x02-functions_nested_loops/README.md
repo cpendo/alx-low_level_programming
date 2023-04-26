@@ -29,3 +29,5 @@ File '101-natural.c' has a C program that computes and prints the sum of all the
 File '102-fibonacci.c' has a C program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
 
 File '103-fibonacci.c' has a C program that finds and prints the sum of the even-valued terms in the Fibonacci sequence up to 4,000,000.
+
+File '104-fibonacci.c' has a C program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2.
