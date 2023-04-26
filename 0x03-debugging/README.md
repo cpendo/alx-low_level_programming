@@ -5,9 +5,16 @@ using the C language.
 
 ## Task 0.Multiple mains
  
-Copy the main.h and the 0-main.c provided and edit the files to test a case where 0 is the the input for a function
-positive_or_negative().
+Copy the `main.h` and `the 0-main.c` provided and edit the files to test a case where 0 is the the input for a function `positive_or_negative()`.
 The correct output after testing is:
-```
+``
 0 is negative
-```
+``
+
+## Task 1.Like, comment, subscribe
+Copy the given main file into file `1-main.c`. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
+The correct output after testing is:
+``
+Infinite loop incoming :(
+Infinite loop avoided! \o/
+``
