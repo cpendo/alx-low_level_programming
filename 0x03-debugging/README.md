@@ -31,3 +31,6 @@ The correct output after testing is:
 ```
 972 is the largest number
 ```
+
+## Task 3. Leap year
+Fix the `print_remaining_days()` function so that the output works correctly for all dates and all leap years.
