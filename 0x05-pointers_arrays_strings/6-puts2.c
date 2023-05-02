@@ -19,7 +19,7 @@ void puts2(char *str)
 		c = str[len];
 		if (len % 2 == 0)
 			_putchar(c);
-		len ++;
+		len++;
 	}
 
 	_putchar('\n');
