@@ -20,7 +20,7 @@ int main(void)
 
 	password[9] = '\0';
 
-	printf("Password: %s\n", password);
+	printf("Tada! Congrats\n");
 
 	return (0);
 }
