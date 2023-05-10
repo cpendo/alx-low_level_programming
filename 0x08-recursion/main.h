@@ -12,5 +12,6 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int _putchar(char c);
 int _sqrt(int n, int num);
+int _divisible(int n, int div);
 
 #endif
