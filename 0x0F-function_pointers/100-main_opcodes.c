@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < bytes; i++)
 	{
-		printf("%02x", ((unsigned char *)main[i]));
+		printf("%02x", ((unsigned char *)main)[i]);
 		if (i != bytes - 1)
 			printf(" ");
 	}
