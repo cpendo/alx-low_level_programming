@@ -43,11 +43,8 @@ void print_all(const char * const format, ...)
 					printf("(nil)");
 					break;
 				}
-				else
-				{
-					printf("%s", s);
-					break;
-				}
+				printf("%s", s);
+				break;
 		} i++;
 	}
 	va_end(ap);
