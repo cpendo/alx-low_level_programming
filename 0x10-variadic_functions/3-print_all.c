@@ -12,32 +12,30 @@
 
 void print_all(const char * const format, ...)
 {
+	int i = 0, num;
+	char c;
+	float f;
+	char *s;
 	va_list ap;
 
 	va_start(ap, format);
-
-	int i = 0;
-	char c;
-	int num;
-	float f;
-	char *s:
 
 	while (format[i])
 	{
 		if (format[i] == 'c')
 		{
 			c = (char)va_arg(ap, int);
-			printf("%c", c);
+			printf("%c, ", c);
 		}
 		else if (format[i] == 'i')
 		{
 			num = va_arg(ap, int);
-			printf("%d", num);
+			printf("%d, ", num);
 		}
 		else if (format[i] == 'f')
 		{
 			f = (float)va_arg(ap, double);
-			printf("%f", f);
+			printf("%f, ", f);
 		}
 		else if (format[i] == 's')
 		{
