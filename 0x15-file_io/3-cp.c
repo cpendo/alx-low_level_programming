@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
 		if (wfile == -1 || w == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+			close(rfile);
 			exit(99);
 		}
 	}
@@ -48,6 +49,5 @@ int main(int argc, char *argv[])
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close df %d\n", wfile);
 		exit(100);
-	}
-	return (0);
+	} return (0);
 }
