@@ -10,15 +10,16 @@ void display_elf_header(const Elf64_Ehdr *header)
 	int i;
 
 	printf("ELF Header:\n");
-	printf("	Magic: ");
+	printf("  Magic:  ");
 	for (i = 0; i < EI_NIDENT; i++)
 		printf("%02x ", header->e_ident[i]);
 	printf("\n");
-	printf("	Class: ELF%d\n", header->e_ident[EI_CLASS] == ELFCLASS64 ? 64 : 32);
-	printf("	Data: %s\n", header->e_ident[EI_DATA] == ELFDATA2LSB ?
+	printf("  Class:\t\t\t     ELF%d\n", header->e_ident[EI_CLASS] ==
+			ELFCLASS64 ? 64 : 32);
+	printf("  Data:\t\t\t\t     %s\n", header->e_ident[EI_DATA] == ELFDATA2LSB ?
 			"2's complement, little endian" : "2's complement, big endian");
-	printf("	Version: %d (current)\n", header->e_ident[EI_VERSION]);
-	printf("	OS/ABI: ");
+	printf("  Version:\t\t\t     %d (current)\n", header->e_ident[EI_VERSION]);
+	printf("  OS/ABI:\t\t\t     ");
 	switch (header->e_ident[EI_OSABI])
 	{
 		case ELFOSABI_SYSV:
@@ -33,8 +34,8 @@ void display_elf_header(const Elf64_Ehdr *header)
 		default:
 			printf("<Unknown: 53>\n");
 			break; }
-	printf("	ABI Version: %d\n", header->e_ident[EI_ABIVERSION]);
-	printf("	Type: ");
+	printf("  ABI Version:\t\t\t     %d\n", header->e_ident[EI_ABIVERSION]);
+	printf("  Type:\t\t\t\t     ");
 	switch (header->e_type)
 	{
 		case ET_EXEC:
@@ -44,9 +45,8 @@ void display_elf_header(const Elf64_Ehdr *header)
 			printf("DYN (Shared object file)\n");
 			break;
 		default:
-			printf("Unknown\n");
 			break; }
-	printf("	Entry point address: 0x%lx\n", header->e_entry);
+	printf("  Entry point address:\t\t     0x%lx\n", header->e_entry);
 }
 
 /**
