@@ -10,7 +10,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int file, i;
+	int file, i, j;
 
 	if (!filename)
 		return (-1);
@@ -25,7 +25,10 @@ int create_file(const char *filename, char *text_content)
 	for (i = 0; text_content[i]; i++)
 		;
 
-	write(file, text_content, i);
+	j = write(file, text_content, i);
+	if (j == -1)
+		return (-1);
+
 	close(file);
 
 	return (1);
